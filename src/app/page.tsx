@@ -1,95 +1,53 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      <div className="menu">
+        <main>
+          <h1>CAMPER CAFE</h1>
+          <p className="established">Est. 2020</p>
+          <hr/>
+          <section>
+            <h2>Coffee</h2>
+            <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+            <article className="item">
+              <p className="flavor">French Vanilla</p><p className="price">3.00</p>
+            </article>
+            <article className="item">
+              <p className="flavor">Caramel Macchiato</p><p className="price">3.75</p>
+            </article>
+            <article className="item">
+              <p className="flavor">Pumpkin Spice</p><p className="price">3.50</p>
+            </article>
+            <article className="item">
+              <p className="flavor">Hazelnut</p><p className="price">4.00</p>
+            </article>
+            <article className="item">
+              <p className="flavor">Mocha</p><p className="price">4.50</p>
+            </article>
+          </section>
+          <section>
+            <h2>Desserts</h2>
+            <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+            <article className="item">
+              <p className="dessert">Donut</p><p className="price">1.50</p>
+            </article>
+            <article className="item">
+              <p className="dessert">Cherry Pie</p><p className="price">2.75</p>
+            </article>
+            <article className="item">
+              <p className="dessert">Cheesecake</p><p className="price">3.00</p>
+            </article>
+            <article className="item">
+              <p className="dessert">Cinnamon Roll</p><p className="price">2.50</p>
+            </article>
+          </section>
+        </main>
+        <hr className="bottom-line"/>
+        <footer>
+          <p>
+            <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+          </p>
+          <p className="address">123 Free Code Camp Drive</p>
+        </footer>
+      </div>
   );
 }
