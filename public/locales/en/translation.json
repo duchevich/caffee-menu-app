@@ -1,0 +1,22 @@
+{
+    "Welcome to React": "Hallo React",
+    "Title": "CAMPER CAFE",
+    "Notice": "Est. 2020",
+    "Coffee": "Coffee",
+    "Drinks": {
+        "French Vanilla": "French Vanilla",
+        "Caramel Macchiato": "Caramel Macchiato",
+        "Pumpkin Spice": "Pumpkin Spice",
+        "Hazelnut": "Hazelnut",
+        "Mocha": "Mocha"
+    },
+    "Desserts": "Desserts",
+    "Food": {
+        "Donut": "Donut",
+        "Cherry Pie": "Cherry Pie",
+        "Cheesecake": "Cheesecake",
+        "Cinnamon Roll": "Cinnamon Roll"
+    },
+    "website": "Visit our website",
+    "address": "123 Free Code Camp Drive"
+}

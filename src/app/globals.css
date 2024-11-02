@@ -3,7 +3,22 @@ body {
   font-family: var(--font-montserrat);
   padding: 20px;
 }
-
+header{
+  text-align: right;
+}
+header button{
+  margin: 0 5px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+header button:hover,
+header button.active{
+  color: brown;
+  border-color: brown;
+}
 h1 {
   font-size: 40px;
   margin-top: 0;

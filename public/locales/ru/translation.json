@@ -1,0 +1,22 @@
+{
+  "Welcome to React": "Привет React",
+  "Title": "CAMPER КАФЕ",
+  "Notice": "Цены 2020",
+  "Coffee": "Кофе",
+  "Drinks": {
+    "French Vanilla": "Французская ваниль",
+    "Caramel Macchiato": "Карамельный макиато",
+    "Pumpkin Spice": "Пряная тыква",
+    "Hazelnut": "Лесной орех",
+    "Mocha": "Мока"
+  },
+  "Desserts": "Десерты",
+  "Food": {
+    "Donut": "Пончик",
+    "Cherry Pie": "Вишневый пирог",
+    "Cheesecake": "Чизкейк",
+    "Cinnamon Roll": "Ролл с корицей"
+  },
+  "website": "Посетите наш сайт",
+  "address": "123 Фри Код Кэмп Драйв"
+}
